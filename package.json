@@ -1,0 +1,21 @@
+{
+    "name": "coverage-helpers",
+    "version": "0.1.0",
+    "description": "Insturments buffers and generates lcov compatible data from collected results to generate coverage reports.",
+    "homepage": "http://tbd",
+    "author": { "name": "Tobias Ebnöther" },
+    "contributors": [{
+        "name": "Tobias Ebnöther",
+        "email": "ebi@gorn.ch",
+        "url": "http://gorn.ch"
+    }],
+    "main": "./lib/coverage-helpers",
+    "repository": {
+        "type": "git",
+        "url": "git://gitorious.org/~ebi/coverage-helpers.git"
+    },
+    "dependencies": {
+        "burrito": ">=0.2.11"
+    }
+}
+
