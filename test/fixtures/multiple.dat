@@ -1,0 +1,8 @@
+SF:/some/file.js
+DA:3,0
+DA:5,1
+end_of_record
+SF:some/other/file.js
+DA:100,1
+DA:300,2
+end_of_record
