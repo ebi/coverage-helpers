@@ -40,3 +40,8 @@ The output will look like this:
     end_of_record
 
 You can visualize this by saving this to a file and running `lcov -l coverage.dat` also `genhtml coverage.dat -o /tmp/report` will be your friend.
+
+### combineResults(executedLines[, executedLines, …])
+* `exectuedLines` is normaly just **_$Coverage** but you can pass anything that follows it's format.
+* You can pass as many `executedLines` as you want to combine for example multiple clients.
+* The return value is an `object` in the same format as **_$Coverage** but with all runs added up
