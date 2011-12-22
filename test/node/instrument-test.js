@@ -17,6 +17,6 @@ buster.assertions.add("instrumentFile", {
 buster.testCase("Test Instrumenting", {
     "instrumenting a complicated js file": function () {
         var jsBuffer = fs.readFileSync(path.join(__dirname, "../fixtures/nonInstrumented.js"));
-        assert.instrumentFile("../fixtures/instrumented.js", coverageHelper.instrument(jsBuffer));
+        assert.instrumentFile("../fixtures/instrumented.js", coverageHelper.instrument(jsBuffer, "../fixtures/nonInstrumented.js"));
     }
 });
