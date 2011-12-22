@@ -22,7 +22,7 @@ buster.testCase("Test generating the coverage configuration", {
                 200: 0
             }
         };
-        assert.coverageData("../fixtures/simple.dat", coverageHelper.generate(coverage));
+        assert.coverageData("../fixtures/simple.dat", coverageHelper.generateLcov(coverage));
     },
 
     "Test a generation with multiple files": function () {
@@ -36,6 +36,6 @@ buster.testCase("Test generating the coverage configuration", {
                 300: 2
             }
         };
-        assert.coverageData("../fixtures/multiple.dat", coverageHelper.generate(coverage));
+        assert.coverageData("../fixtures/multiple.dat", coverageHelper.generateLcov(coverage));
     }
 });
