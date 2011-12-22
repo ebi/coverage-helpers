@@ -39,4 +39,4 @@ The output will look like this:
     DA:7,0  
     end_of_record
 
-You can visualize this by saving this to a file and running `lcov -l coverage.dat` also `genhtml` will be your friend.
+You can visualize this by saving this to a file and running `lcov -l coverage.dat` also `genhtml coverage.dat -o /tmp/report` will be your friend.
