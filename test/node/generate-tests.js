@@ -14,6 +14,7 @@ buster.assertions.add("coverageData", {
 
 buster.testCase("Test generating the coverage configuration", {
     "Test that a simple run with one file executed get's generated correctly": function () {
+        Date.now = this.stub().returns(1234567890000);
         var coverage = {
             '/some/example/file.js': {
                 3: 0,
@@ -27,6 +28,7 @@ buster.testCase("Test generating the coverage configuration", {
     },
 
     "Test a generation with multiple files": function () {
+        Date.now = this.stub().returns(1234567890000);
         var coverage = {
             '/some/file.js': {
                 3: 0,

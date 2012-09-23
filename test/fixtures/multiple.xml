@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage
   SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-03.dtd'>
-<coverage branch-rate="0" line-rate="1" timestamp="1343299770569" version="3.5.2">
+<coverage branch-rate="0" line-rate="0.75" timestamp="1234567890" version="3.5.2">
   <packages>
-    <package branch-rate="0" complexity="0" line-rate="1" name="somepackage">
+    <package branch-rate="0" complexity="0" line-rate="0.75" name="somepackage">
       <classes>
-        <class branch-rate="0" complexity="0" filename="/some/file.js" line-rate="1" name="file">
+        <class branch-rate="0" complexity="0" filename="/some/file.js" line-rate="0.5" name="file">
           <methods/>
           <lines>
             <line hits="0" number="3"/>
