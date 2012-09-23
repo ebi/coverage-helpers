@@ -1,23 +1,23 @@
 if ("undefined" === typeof(_$Coverage)) { _$Coverage = {}; }
 if ("undefined" === typeof(_$Coverage["../fixtures/nonInstrumented.js"])) { _$Coverage["../fixtures/nonInstrumented.js"] = {}; }
-function _$ExecutedLine(filename, line) { _$Coverage[filename][line]++; return function (expr) { return expr };}_$Coverage["../fixtures/nonInstrumented.js"][0]=0;
-_$Coverage["../fixtures/nonInstrumented.js"][2]=0;
+function _$ExecutedLine(filename, line) { _$Coverage[filename][line]++; return function (expr) { return expr };}_$Coverage["../fixtures/nonInstrumented.js"][1]=0;
 _$Coverage["../fixtures/nonInstrumented.js"][3]=0;
-_$Coverage["../fixtures/nonInstrumented.js"][3]=0;
+_$Coverage["../fixtures/nonInstrumented.js"][4]=0;
 _$Coverage["../fixtures/nonInstrumented.js"][4]=0;
 _$Coverage["../fixtures/nonInstrumented.js"][5]=0;
 _$Coverage["../fixtures/nonInstrumented.js"][6]=0;
-_$Coverage["../fixtures/nonInstrumented.js"][6]=0;
-_$Coverage["../fixtures/nonInstrumented.js"][8]=0;
-_$Coverage["../fixtures/nonInstrumented.js"][14]=0;
-_$Coverage["../fixtures/nonInstrumented.js"][19]=0;
-_$Coverage["../fixtures/nonInstrumented.js"][25]=0;
-_$Coverage["../fixtures/nonInstrumented.js"][25]=0;
+_$Coverage["../fixtures/nonInstrumented.js"][7]=0;
+_$Coverage["../fixtures/nonInstrumented.js"][7]=0;
+_$Coverage["../fixtures/nonInstrumented.js"][9]=0;
+_$Coverage["../fixtures/nonInstrumented.js"][15]=0;
+_$Coverage["../fixtures/nonInstrumented.js"][20]=0;
 _$Coverage["../fixtures/nonInstrumented.js"][26]=0;
-_$Coverage["../fixtures/nonInstrumented.js"][29]=0;
-_$Coverage["../fixtures/nonInstrumented.js"][31]=0;
+_$Coverage["../fixtures/nonInstrumented.js"][26]=0;
+_$Coverage["../fixtures/nonInstrumented.js"][27]=0;
+_$Coverage["../fixtures/nonInstrumented.js"][30]=0;
 _$Coverage["../fixtures/nonInstrumented.js"][32]=0;
-_$Coverage["../fixtures/nonInstrumented.js"][34]=0;
+_$Coverage["../fixtures/nonInstrumented.js"][33]=0;
+_$Coverage["../fixtures/nonInstrumented.js"][35]=0;
 {
     _$ExecutedLine("../fixtures/nonInstrumented.js", 1);
     var foo = bar;
