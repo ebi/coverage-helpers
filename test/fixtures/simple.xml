@@ -5,7 +5,7 @@
   <packages>
     <package branch-rate="0" complexity="0" line-rate="1" name="somepackage">
       <classes>
-        <class branch-rate="0" complexity="0" filename="/some/example/file.js" line-rate="1" name="main">
+        <class branch-rate="0" complexity="0" filename="/some/example/file.js" line-rate="1" name="file">
           <methods/>
           <lines>
             <line hits="0" number="3"/>

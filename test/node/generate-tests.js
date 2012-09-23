@@ -32,7 +32,7 @@ buster.testCase("Test generating the coverage configuration", {
                 3: 0,
                 5: 1
             },
-            'some/other/file.js': {
+            'some/otherfile.js': {
                 100: 1,
                 300: 2
             }
