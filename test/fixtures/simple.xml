@@ -3,7 +3,7 @@
   SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-03.dtd'>
 <coverage branch-rate="0" line-rate="0.5" timestamp="1234567890" version="3.5.2">
   <packages>
-    <package branch-rate="0" complexity="0" line-rate="0.5" name="somepackage">
+    <package branch-rate="0" complexity="0" line-rate="0.5" name=".some.example">
       <classes>
         <class branch-rate="0" complexity="0" filename="/some/example/file.js" line-rate="0.5" name="file">
           <methods/>
