@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage
+  SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-03.dtd'>
+<coverage branch-rate="0" line-rate="0.75" timestamp="1234567890" version="3.5.2">
+  <packages>
+    <package branch-rate="0" complexity="0" line-rate="0.75" name="some">
+      <classes>
+        <class branch-rate="0" complexity="0" filename="/some/file.js" line-rate="0.5" name="file">
+          <methods/>
+          <lines>
+            <line hits="0" number="3"/>
+            <line hits="1" number="5"/>
+          </lines>
+        </class>
+        <class branch-rate="0" complexity="0" filename="some/otherfile.js" line-rate="1" name="otherfile">
+          <methods/>
+          <lines>
+            <line hits="1" number="100"/>
+            <line hits="2" number="300"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

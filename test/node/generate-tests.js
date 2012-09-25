@@ -14,6 +14,7 @@ buster.assertions.add("coverageData", {
 
 buster.testCase("Test generating the coverage configuration", {
     "Test that a simple run with one file executed get's generated correctly": function () {
+        Date.now = this.stub().returns(1234567890000);
         var coverage = {
             '/some/example/file.js': {
                 3: 0,
@@ -23,19 +24,22 @@ buster.testCase("Test generating the coverage configuration", {
             }
         };
         assert.coverageData("../fixtures/simple.dat", coverageHelper.generateLcov(coverage));
+        assert.coverageData("../fixtures/simple.xml", coverageHelper.generateCobertura(coverage));
     },
 
     "Test a generation with multiple files": function () {
+        Date.now = this.stub().returns(1234567890000);
         var coverage = {
             '/some/file.js': {
                 3: 0,
                 5: 1
             },
-            'some/other/file.js': {
+            'some/otherfile.js': {
                 100: 1,
                 300: 2
             }
         };
         assert.coverageData("../fixtures/multiple.dat", coverageHelper.generateLcov(coverage));
+        assert.coverageData("../fixtures/multiple.xml", coverageHelper.generateCobertura(coverage));
     }
 });
